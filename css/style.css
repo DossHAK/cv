@@ -61,6 +61,12 @@ body {
   height: 7px;
   background-color: #3941e2;
 }
+.full__name .my__skills li {
+  margin-bottom: 12px;
+}
+.full__name .about__me li {
+  margin-bottom: 12px;
+}
 .full__name .experience .experience_inner .experience_item {
   width: auto;
   display: flex;
