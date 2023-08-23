@@ -1,0 +1,106 @@
+@font-face {
+	font-family: 'Roboto-Regular'; 
+	src: url(/fonts/Roboto-Regular.ttf); 
+}
+
+* {
+    box-sizing: border-box;
+}
+body {
+    color: #3941e2;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.bio {
+    background-color: #3941e2;
+    width: 455px;
+
+    p {
+        color: #f4e4f1;
+    }
+    a {
+        color: #f4e4f1;
+        text-decoration: none;
+    }
+    .foto {
+        height: 510px;
+        border: 1px #fff solid;
+    }
+    .contacts {
+        padding: 50px 25px 0 25px;
+
+        p:first-child {
+            margin-top: 0;
+        }
+        p {
+            margin: 30px 0 30px 0;
+        }
+        .city {
+        }
+        .email {
+        }
+        .phone {
+        }
+        .skype {
+        }
+        .github {
+        }
+        .vk {
+        }        
+    }
+}
+.full__name {
+    background-color: #ebebeb;
+    padding: 0 49px;
+
+    .full__name-title {
+        font-size: 80px;
+    }
+    h2 {
+        font-weight: 800;
+    }
+    .full__name-tetx {
+        font-size: 30px;
+        margin: -50px 0 30px 20px;
+    }
+    hr {
+        width: 600px;
+        height: 7px;
+        background-color: #3941e2;
+    }
+    .my__skills {
+    }
+    .about__me {
+    }
+    .experience {
+
+        .experience_inner {
+
+            .experience_item {
+                width: auto;
+                display: flex;
+                margin-top: 25px;
+
+                .experience_item-title {
+                    min-width: 220px;
+
+                    .job__title {
+                        max-width: 220px;
+                    }
+                    .organization {
+                    }
+                    .period {
+                        max-width: 220px;
+                    }    
+                }
+                .responsibilities {
+                }                
+            }
+        }
+    }
+}
