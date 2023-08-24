@@ -29,6 +29,13 @@ body {
   color: #f4e4f1;
   text-decoration: none;
 }
+.bio a:hover {
+  color: #000;
+  font-size: 20px;
+}
+.bio i {
+  font-size: 25px;
+}
 .bio .foto {
   height: 510px;
   border: 1px #fff solid;
